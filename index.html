@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yayasan NUR INSAN WACHID</title>
+  <meta name="description" content="Website resmi Yayasan NUR INSAN WACHID — struktur organisasi, agenda, dan transparansi keuangan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a href="#beranda" class="brand"><span class="logo">NIW</span><span><b id="brandName">Yayasan NUR INSAN WACHID</b><small id="brandTag">Amanah &amp; Transparan</small></span></a>
+      <button class="burger" onclick="document.body.classList.toggle('menu-open')" aria-label="Menu">☰</button>
+      <nav class="links">
+        <a href="#beranda">Beranda</a><a href="#struktur">Struktur</a><a href="#agenda">Agenda</a>
+        <a href="#keuangan">Keuangan</a><a href="#rab">RAB</a><a href="#admin" class="btn-sm">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app"><div class="wrap loading">Memuat data…</div></main>
+
+  <footer class="foot"><div class="wrap"><b id="footName">Yayasan NUR INSAN WACHID</b><span id="footAddr"></span><small>Data keuangan dipublikasikan untuk transparansi publik.</small></div></footer>
+  <div id="toast"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
