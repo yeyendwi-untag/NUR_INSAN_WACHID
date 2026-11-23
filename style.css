@@ -6,7 +6,7 @@ a{color:var(--g)}.wrap{max-width:1140px;margin:0 auto;padding:0 20px}.muted{colo
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:100px}
 .brand{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink)}.brand b{display:block;font-family:'Plus Jakarta Sans';font-size:.98rem}.brand small{color:var(--mut);font-size:.75rem}
 
-.logo{width:1000px;height:1000px;object-fit:contain;background:none;border:0;border-radius:0;padding:0;display:block;flex:0 0 auto}
+.logo{width:400px;height:400px;object-fit:contain;background:none;border:0;border-radius:0;padding:0;display:block;flex:0 0 auto}
 .links{display:flex;gap:4px;align-items:center}.links a{padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:500;font-size:.93rem}.links a:hover,.links a.active{background:var(--gl);color:var(--g)}
 .btn-sm{background:var(--g)!important;color:#fff!important}.burger{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer}
 .hero{background:radial-gradient(circle at 80% 20%,rgba(201,162,39,.25),transparent 40%),linear-gradient(135deg,var(--g),var(--g2));color:#fff;padding:90px 0 110px}
