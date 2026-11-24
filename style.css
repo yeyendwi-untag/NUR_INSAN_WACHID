@@ -2,10 +2,8 @@
 *{box-sizing:border-box}body{margin:0;font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
 h1,h2,h3{font-family:'Plus Jakarta Sans',sans-serif;line-height:1.25;margin:0 0 .6em}h2{font-size:1.2rem;color:var(--g)}h3{font-size:1rem}
 a{color:var(--g)}.wrap{max-width:1140px;margin:0 auto;padding:0 20px}.muted{color:var(--mut)}code{background:var(--gl);padding:2px 6px;border-radius:6px}
-.nav{background:#fff;box-shadow:0 2px 12px rgba(0,0,0,.05);position:sticky;top:0;z-index:20}.nav-in{display:flex;align-items:center;justify-content:space-between;height:68px}
-.brand{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink)}.brand b{display:block;font-family:'Plus Jakarta Sans';font-size:.98rem}.brand small{color:var(--mut);font-size:.75rem}
-.logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--g),var(--g2));color:var(--gold);display:grid;place-items:center;font-weight:800;font-size:.8rem;border:2px solid var(--gold)}
-.links{display:flex;gap:4px;align-items:center}.links a{padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:500;font-size:.93rem}.links a:hover,.links a.active{background:var(--gl);color:var(--g)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:84px}.brand{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink)}.brand b{display:block;font-family:'Plus Jakarta Sans';font-size:.98rem}.brand small{color:var(--mut);font-size:.75rem}
+.logo{width:56px;height:56px;object-fit:contain;background:none;border:0;border-radius:0;padding:0;display:block;flex:0 0 auto}.links{display:flex;gap:4px;align-items:center}.links a{padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:500;font-size:.93rem}.links a:hover,.links a.active{background:var(--gl);color:var(--g)}
 .btn-sm{background:var(--g)!important;color:#fff!important}.burger{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer}
 .hero{background:radial-gradient(circle at 80% 20%,rgba(201,162,39,.25),transparent 40%),linear-gradient(135deg,var(--g),var(--g2));color:#fff;padding:90px 0 110px}
 .hero h1{font-size:clamp(2rem,5vw,3.2rem);max-width:760px}.hero p{font-size:1.15rem;opacity:.9;max-width:620px}.pill{display:inline-block;background:rgba(201,162,39,.2);color:#f3dc8c;border:1px solid rgba(201,162,39,.5);padding:4px 12px;border-radius:99px;font-size:.8rem;margin-bottom:16px}
