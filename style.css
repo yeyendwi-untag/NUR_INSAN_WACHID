@@ -54,7 +54,7 @@ select,input,textarea{font:inherit;padding:10px 12px;border:1.5px solid #dbe3dd;
     padding: 16px 32px;
     height: auto;
   }
-  .site-header .brand { display: flex; align-items: center; gap: 12px; }
+  .site-header .brand { display: flex; align-items: center; gap: 24px; }
   .nav { display: flex; flex-direction: row; gap: 28px; }
   .nav a { padding: 8px 0; }
   .nav-toggle { display: none; }
