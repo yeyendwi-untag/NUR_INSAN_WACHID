@@ -99,8 +99,8 @@ select,input,textarea{font:inherit;padding:10px 12px;border:1.5px solid #dbe3dd;
 
 .brand img,
 .brand .logo {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   flex: 0 0 auto;
 }
@@ -110,9 +110,9 @@ select,input,textarea{font:inherit;padding:10px 12px;border:1.5px solid #dbe3dd;
 
   .brand img,
   .brand .logo {
-    width: 84px;
-    height: 84px;
+    width: 100px;
+    height: 100px;
   }
 
-  .brand .brand-name { font-size: 20px; }
+  .brand .brand-name { font-size: 14px; }
 }
