@@ -3,7 +3,7 @@
   --ink:#1d2a24;--mut:#66756d;--bg:#f6f8f6;
   --r:14px;--sh:0 6px 24px rgba(20,60,40,.08);
   --nav-h:92px;                                  /* tinggi minimum header */
-  --logo:clamp(48px,11vw,92px);                  /* logo ikut lebar layar */
+  --logo:clamp(88px,11vw,92px);                  /* logo ikut lebar layar */
   --pad:clamp(16px,4vw,24px);
 }
 *,*::before,*::after{box-sizing:border-box}
